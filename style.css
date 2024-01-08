@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+header {
+    background-color: #263343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 카드 */
+
+.card-list {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 500px;
+    place-items: center;
+    background-color: coral;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.card-list img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.search label {
+    font-size: 35px;
+}
+
+.search input {
+    margin-left: 20px;
+    min-width: 300px;
+    padding: 5px 10px;
+}
+
+.search button {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
